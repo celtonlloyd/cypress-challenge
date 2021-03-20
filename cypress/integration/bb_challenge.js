@@ -2,8 +2,8 @@ describe("My First Test", () => {
   it("Tests aceinvoice app", () => {
     cy.visit(" https://www.aceinvoice.com/");
     cy.contains("Sign up for FREE").click();
-    cy.get(".form-control").type("doll36-march-19-2021-2142@example.com");
-    //   .should("have.value", "ltonlloyd-march-19-2021-2142@example.com")
+    cy.get(".form-control").type("celtonll0yd-march-19-2021-2142@example.com");
+
     cy.contains("Get Started").click();
     cy.contains("Password").get(".form-control").type("welcome1234!");
     cy.contains("Continue").click();
